@@ -1,0 +1,4 @@
+/* Menu Section */
+.basic-menu-item:hover .basic-menu-description-container {
+  opacity: 0.85;
+}
