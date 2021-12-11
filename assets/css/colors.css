@@ -6,4 +6,19 @@
 
   --primary-font-color: #f7fff7;
   --secondary-font-color: #28231d;
+
+  /* Other Colors */
+  --space-cadet: #3b3561;
+  --cadet-blue: #51a3a3;
+  --tufts-blue: #2892d7;
+  --light-gray: #d1dad1;
+  --gun-metal: #153243;
+  --majorello-blue: #623cea;
+
+  --color-one: #b2ffa9;
+  --color-two: #51a3a3;
+  --color-three: #b26e63;
+  --color-four: #bbc5aa;
+  --color-five: #ff88dc;
+  --color-six: #91a6ff;
 }

@@ -1,0 +1,247 @@
+.animated-menu-intro-section {
+  padding: 0 0 0 4%;
+  opacity: 1;
+}
+.animated-menu-introduction-side-title {
+}
+
+/* Hide Sideway Title */
+.animated-menu-title:hover {
+  animation: hideItem 0.75s ease-out 0.25s forwards;
+  -webkit-animation: hideItem 0.75s ease-out 0.25s forwards;
+}
+/* Show Image */
+.animated-menu-item-container:hover .animated-menu-left-content {
+  animation: showItem 0.8s ease-out 1s forwards;
+  -webkit-animation: showItem 0.8s ease-out 1s forwards;
+}
+
+.animated-menu-item-container:hover .animated-menu-right-content {
+  animation: showItem 0.5s ease-in 1.5s forwards;
+  -webkit-animation: showItem 0.5s ease-in 1.5s forwards;
+}
+
+/* Animated Menu */
+.animated-menu-container {
+  padding-bottom: 5%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.animated-menu-item-container {
+  height: calc(100vh - 100px);
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  width: 4%;
+  transition: all 0.85s;
+  -webkit-transition: all 0.85s;
+  -moz-transition: all 0.85s;
+  -ms-transition: all 0.85s;
+  -o-transition: all 0.85s;
+}
+
+/* Menu Colors */
+.animated-menu-item-container:nth-of-type(1) {
+  background-color: var(--primary-color);
+  flex-grow: 5;
+}
+.animated-menu-item-container:nth-of-type(2) {
+  background-color: var(--secondary-color);
+}
+.animated-menu-item-container:nth-of-type(3) {
+  background-color: var(--majorello-blue);
+}
+.animated-menu-item-container:nth-of-type(4) {
+  background-color: var(--tufts-blue);
+}
+.animated-menu-item-container:nth-of-type(5) {
+  background-color: var(--space-cadet);
+}
+.animated-menu-item-container:nth-of-type(6) {
+  background-color: var(--cadet-blue);
+}
+.animated-menu-item-container:nth-of-type(7) {
+  background-color: var(--tertiary-color);
+}
+
+.animated-menu-item-container:hover {
+  width: 76%;
+}
+
+.animated-menu-item-container {
+  position: relative;
+  display: flex;
+}
+
+.animated-menu-introduction-title {
+  color: var(--primary-font-color);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.animated-menu-item-container:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.animated-menu-introduction-headline {
+  margin-top: 1.5%;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+}
+.animated-menu-introduction-text {
+  margin-top: 3%;
+  padding: 0 20% 0 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.animated-menu-item-flex-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+}
+
+.animated-menu-left-content {
+  width: 45%;
+  height: 100%;
+}
+
+.animated-menu-right-content {
+  width: 55%;
+  height: 100%;
+  padding: 0 0 0 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated-menu-right-content,
+.animated-menu-left-content {
+  opacity: 0;
+}
+
+.animated-menu-intro-section {
+  padding: 0 0 0 4%;
+}
+
+.animated-menu-right-title,
+.animated-menu-main-right-title {
+  text-align: center;
+  font-family: "Lobster Two";
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.animated-menu-right-title {
+  font-size: 32px;
+}
+
+.animated-menu-right-content-container {
+  margin-top: 4%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.animated-menu-right-title-description-container {
+  width: 85%;
+}
+
+.animated-menu-right-title {
+  text-align: start;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.animated-menu-right-description {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 200;
+  margin-top: 1%;
+}
+
+.animated-menu-right-price {
+  font-family: "Lobster Two";
+  letter-spacing: 1px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Menu Title Animation */
+.animated-menu-title {
+  position: absolute;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  width: 100%;
+  height: calc(100vh - 100px);
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+@keyframes showItem {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hideItem {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animated-menu-item-introduction-container {
+  background-color: green;
+}
+/* Settings for main page */
+
+.animated-menu-item-container:not(.animated-menu-item-introduction-container):hover
+  .animated-menu-item-introduction-container {
+  display: none;
+}
+
+/* Setting Menu Images */
+.animated-menu-item-container:nth-of-type(2) .animated-menu-left-content {
+  background-image: url("../images/Menu-Page/steak_meal.jpg");
+}
+
+.animated-menu-item-container:nth-of-type(3) .animated-menu-left-content {
+  background-image: url("../images/Menu-Page/chicken_meal.jpg");
+}
+
+.animated-menu-item-container:nth-of-type(4) .animated-menu-left-content {
+  background-image: url("../images/Menu-Page/burger_meal.jpg");
+}
+.animated-menu-item-container:nth-of-type(5) .animated-menu-left-content {
+  background-image: url("../images/Menu-Page/salmon_meal.jpg");
+}
+
+.animated-menu-item-container:nth-of-type(6) .animated-menu-left-content {
+  background-image: url("../images/Menu-Page/brownie_dessert.jpg");
+}
+.animated-menu-item-container:nth-of-type(7) .animated-menu-left-content {
+  background-image: url("../images/Menu-Page/chilled_mocktail.jpg");
+}
