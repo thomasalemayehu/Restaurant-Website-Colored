@@ -24,19 +24,19 @@
       <!-- Menu Section -->
       <ul class="navigation-menu-section">
         <li class="navigation-links-containers">
-          <a href="" class="navigation-links">Home</a>
+          <a href="#landing-page" class="navigation-links">Home</a>
         </li>
         <li class="navigation-links-containers">
-          <a href="" class="navigation-links">About</a>
+          <a href="#about-page" class="navigation-links">About</a>
         </li>
         <li class="navigation-links-containers">
-          <a href="" class="navigation-links">Menu</a>
+          <a href="#menu-page" class="navigation-links">Menu</a>
         </li>
         <li class="navigation-links-containers">
-          <a href="" class="navigation-links">Specials</a>
+          <a href="#" class="navigation-links">Specials</a>
         </li>
         <li class="navigation-links-containers">
-          <a href="" class="navigation-links">Contact Us</a>
+          <a href="#contact-page" class="navigation-links">Contact Us</a>
         </li>
       </ul>
     </nav>
@@ -44,8 +44,8 @@
     <!-- Non Mobile Navigation End -->
 
     <!-- Mobile Navigation Start -->
-    <nav class="mobile-navigation-container">
-      <div class="mobile-nav-logo-section">Logo</div>
+    <nav class="mobile-navigation-container" id="mobile-navigation-bar">
+      <div class="mobile-nav-logo-section"></div>
       <div class="mobile-navigation-button">
         <svg
           width="26"
@@ -64,11 +64,53 @@
     <!-- Mobile Navigation End -->
 
     <!-- Mobile Menu Overlay Start -->
-    <div class="mobile-menu-container" id="mobile-menu-overlay"></div>
+    <div class="mobile-menu-container" id="mobile-menu-overlay">
+      <div class="mobile-menu-top-container">
+        <div class="mobile-menu-icon"></div>
+        <div class="mobile-menu-exit-container">
+          <svg
+            class="mobile-menu-exit-button"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M24 9.4L22.6 8L16 14.6L9.4 8L8 9.4l6.6 6.6L8 22.6L9.4 24l6.6-6.6l6.6 6.6l1.4-1.4l-6.6-6.6L24 9.4z"
+              fill="white"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Navigation Link -->
+      <ul class="mobile-menu-navigation-container">
+        <li class="mobile-menu-navigation-links-container">
+          <a href="#landing-page" class="mobile-menu-navigation-link">Home</a>
+        </li>
+
+        <li class="mobile-menu-navigation-links-container">
+          <a href="#about-page" class="mobile-menu-navigation-link">About</a>
+        </li>
+
+        <li class="mobile-menu-navigation-links-container">
+          <a href="#menu-page" class="mobile-menu-navigation-link">Menu</a>
+        </li>
+
+        <li class="mobile-menu-navigation-links-container">
+          <a href="#" class="mobile-menu-navigation-link">Specials</a>
+        </li>
+
+        <li class="mobile-menu-navigation-links-container">
+          <a href="#contact-page" class="mobile-menu-navigation-link"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
     <!-- Mobile Menu Overlay End -->
 
     <!-- Landing Page Start -->
-    <div class="landing-page-container">
+    <div class="landing-page-container" id="landing-page">
       <section class="landing-page-left-section">
         <div class="landing-page-left-section-content-container">
           <h1 class="landing-page-left-section-headline">Four Loaves</h1>
@@ -83,7 +125,7 @@
     <!-- Landing Page End -->
 
     <!-- About Page Start -->
-    <div class="about-page-container">
+    <div class="about-page-container" id="about-page">
       <!-- Left Section -->
       <div class="about-page-left-section">
         <h1 class="about-page-left-section-title">ABOUT US</h1>
@@ -177,7 +219,7 @@
     <!-- Chefs Section End -->
 
     <!-- Menu Section Start - Basic -->
-    <div class="basic-menu-container">
+    <div class="basic-menu-container" id="menu-page">
       <div class="basic-menu-title">OUR MENUS</div>
       <div class="basic-menu-section">
         <!-- Menu Item 1-->
@@ -302,7 +344,7 @@
     <!-- Menu Section End - Animated -->
 
     <!-- Contact Page -->
-    <div class="contact-page-container">
+    <div class="contact-page-container" id="contact-page">
       <div class="contact-page-left-section">
         <div class="contact-page-left-section-title-main">CONTACT US</div>
         <div class="contact-page-left-section-headline">
