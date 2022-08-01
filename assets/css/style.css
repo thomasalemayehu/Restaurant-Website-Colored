@@ -96,7 +96,6 @@ html::-webkit-scrollbar-thumb {
 .mobile-nav-logo-section {
   width: 35%;
   height: 100%;
-  background-image: url("../icons/main_logo_dark.png");
   background-size: contain;
 }
 
