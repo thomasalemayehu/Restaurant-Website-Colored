@@ -7,6 +7,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+:root {
+  --primary-color: #ff6b6b;
+  --secondary-color: #ffe66d;
+  --tertiary-color: #1a535c;
+  --primary-font-color: #f7fff7;
+  --secondary-font-color: #28231d;
+  --space-cadet: #3b3561;
+  --cadet-blue: #51a3a3;
+  --tufts-blue: #2892d7;
+  --light-gray: #d1dad1;
+  --gun-metal: #153243;
+  --majorello-blue: #623cea;
+  --color-one: #b2ffa9;
+  --color-two: #51a3a3;
+  --color-three: #b26e63;
+  --color-four: #bbc5aa;
+  --color-five: #ff88dc;
+  --color-six: #91a6ff;
+}
 h1,
 h2,
 h3,
@@ -57,7 +76,6 @@ html::-webkit-scrollbar-thumb {
 .navigation-logo-section {
   width: 150px;
   height: 50px;
-  background-image: url("../icons/main_logo_dark.png");
   background-size: contain;
 }
 .navigation-menu-section {
@@ -123,7 +141,7 @@ html::-webkit-scrollbar-thumb {
 .mobile-menu-icon {
   width: 30%;
   height: 100%;
-  background-image: url("../icons/main_logo_light.png");
+
   background-size: contain;
 }
 .mobile-menu-exit-container {
